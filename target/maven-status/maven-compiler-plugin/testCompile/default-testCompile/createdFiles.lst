@@ -1,0 +1,9 @@
+drivers\AndroidMobileDriver.class
+helpers\AllureAttachments.class
+screens\MainFeedScreen.class
+screens\PlayerScreen.class
+tests\BaseTest.class
+config\MobileConfig.class
+helpers\ApkInstaller.class
+tests\VkVideoPlaybackTest.class
+config\ConfigFactoryProvider.class
