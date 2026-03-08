@@ -111,3 +111,4 @@ allure-report
 *.aab
 *.ipa
 /build/
+target/
