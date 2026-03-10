@@ -24,19 +24,6 @@ public class AndroidMobileDriver implements WebDriverProvider {
         }
 
         String appActivity = resolveAppActivity(cfg);
-
-        System.out.println("=== MOBILE CONFIG ===");
-        System.out.println("Appium URL: " + cfg.appiumUrl());
-        System.out.println("Platform: " + cfg.platformName());
-        System.out.println("Automation: " + cfg.automationName());
-        System.out.println("Device: " + cfg.deviceName());
-        System.out.println("UDID: " + cfg.udid());
-        System.out.println("Platform version: " + cfg.platformVersion());
-        System.out.println("App package: " + cfg.appPackage());
-        System.out.println("App activity: " + appActivity);
-        System.out.println("App wait activity: " + cfg.appWaitActivity());
-        System.out.println("=====================");
-
         UiAutomator2Options options = new UiAutomator2Options()
                 .setPlatformName(cfg.platformName())
                 .setAutomationName(cfg.automationName())

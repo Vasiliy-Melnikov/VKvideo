@@ -1,6 +1,5 @@
 package helpers;
 
-import com.codeborne.selenide.Screenshots;
 import com.codeborne.selenide.WebDriverRunner;
 import io.qameta.allure.Allure;
 import org.openqa.selenium.OutputType;
